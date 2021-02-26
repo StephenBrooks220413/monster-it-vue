@@ -19,6 +19,13 @@
     />
     <title>MonsterIT</title>
   </head>
+  <style>
+    .max {
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
@@ -92,12 +99,46 @@
         </section>
         <!-- Section: Social media -->
       </div>
+      <h2 class="text-dark">Contact Me</h2>
       <!-- Grid container -->
+      <form class="container" name="contact" method="POST" data-netlify="true">
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" required id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
 
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input
+            type="email"
+            required
+            id="form4Example2"
+            class="form-control"
+          />
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea
+            class="form-control"
+            required
+            id="form4Example3"
+            rows="6"
+          ></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+
+        <!-- Submit button -->
+        <a type="submit" class="btn max btn-primary btn-block mb-4">
+          Send
+        </a>
+      </form>
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <a class="text-white" href="https://www.monster-it.com/">monster-it.com</a>
       </div>
       <!-- Copyright -->
     </footer>
