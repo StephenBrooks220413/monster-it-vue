@@ -85,8 +85,8 @@
                 >
               </li>
               <li>
-                <router-link class="dropdown-item active" to="/contact"
-                  >Contact</router-link
+                <router-link class="dropdown-item active" to="/gallery"
+                  >Gallery</router-link
                 >
               </li>
             </ul>
@@ -117,8 +117,8 @@
                 >
               </li>
               <li>
-                <router-link class="dropdown-item active" to="/contact"
-                  >Contact</router-link
+                <router-link class="dropdown-item active" to="/gallery"
+                  >Gallery</router-link
                 >
               </li>
             </ul>
