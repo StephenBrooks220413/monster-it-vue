@@ -2,7 +2,7 @@
   <div class="intro-img">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0)">
       <div class="d-flex justify-content-center align-items-center h-100">
-        <h1 class="text-primary intro-header">Monster I.T.</h1>
+        <h1 class="text-primary intro-header">Learning Solutions</h1>
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
     data-mdb-toggle="modal"
     data-mdb-target="#exampleModal"
   >
-    <h4>Need A Developer?</h4>
+    <h4>Want 2 Learn?</h4>
   </button>
 
   <!-- Modal -->
@@ -54,11 +54,11 @@
     </div>
   </div>
   <br /><br /><br />
-  <h1 class="display">Get the Vue Experience</h1>
+  <h1 class="display">Ready For A Challenge?</h1>
   <h4>
     Using Axios for the API call to dynamically display the content below.
   </h4>
-  <br />
+  <br /><br />
   <!-- API Calls -->
   <div class="events">
     <br /><br />
@@ -173,7 +173,7 @@
           <br /><br />
           <a
             class="btn btn-primary"
-            href="mailto:stephenbrooks714@gmail.com"
+            href="https://www.wyzant.com/Tutors/Stephen220413"
             target="_blank"
             >Profile</a
           >

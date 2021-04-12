@@ -1,16 +1,16 @@
 <template>
   <div class="about">
-    <h1>About Monster I.T.</h1>
+    <h1>About Learning Solutions</h1>
     <hr class="line" />
   </div>
   <br />
   <p class="container">
     Started after completing bootcamp myself, learning the three basics and then
     React, Angular, asp.Net, Vue, Python and also Node.js. From there I went on
-    to offering courses through Udemy, FrameworkTV, FullSail University and then
-    building websites as a freelancer for clients. I currently service 33 sites,
-    built 248 apps, sold over 100 templates, and sintructed over 70 students
-    with Wyzant and recently got on Udemy.
+    to offering courses through Udemy, FrameworkTV, Wyzant and then building
+    websites as a freelancer for clients. I currently service 33 sites, built
+    248 apps, sold over 100 templates, and sintructed over 70 students with
+    Wyzant and recently got on Udemy.
   </p>
   <p class="container">
     My goal and objective is to teach anyone who wants to learn a language at an
