@@ -1,197 +1,156 @@
 <template>
-  <div class="intro-img">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0)">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <h1 class="text-primary intro-header">Learning Solutions</h1>
-      </div>
+  <div class="home text-center">
+    <div class="container">
+      <img src="../assets/logo.png" alt="" class="img-fluid" />
     </div>
-  </div>
-  <br /><br /><br />
-  <!-- Button trigger modal -->
-  <button
-    type="button"
-    class="btn max1 btn-primary"
-    data-mdb-toggle="modal"
-    data-mdb-target="#exampleModal"
-  >
-    <h4>Want 2 Learn?</h4>
-  </button>
-
-  <!-- Modal -->
-  <div
-    class="modal fade"
-    id="exampleModal"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+    <h1 class="display-4">
+      Stephen Brooks
+    </h1>
+    <h3>Web Developer</h3>
+    <div class="container text-center content">
+      <h2>Websites Using Vue.js</h2>
+      <hr />
+      <article>
+        Websites are completely dependent on the developer or platform being
+        used. Depending on what was used to build your site, it may not be
+        reaching its full potential. With Vue.js, you get the powerful side of
+        Angular and the lighter framework, even lighter then React.js. As a SPA
+        running, your site will have faster load times on the internet,
+        resulting in more website visits. Ask for a dmeo to see for yourself,
+        then ask me for a quote. If you are interested in learning, I also offer
+        courses that are one-on-one. To examples of running applications using
+        Vue.js as a part of the framework, follow this
+        <a
+          class="btn btn-outline-info"
+          href="https://madewithvuejs.com/frameworks"
+          target="_blank"
+          >link</a
+        >
+      </article>
+    </div>
+    <div class="container text-center content">
+      <h2>Websites Using Material UI</h2>
+      <hr />
+      <article>
+        Most commonly you will find websites that use Bootstrap, DevExtreme,
+        Material UI, and other layouts that already have a library filled of
+        styles and javascript methods to perform actions. It's no surprise that
+        even platforms like WordPress and Shopify use them too. So why go with
+        me instead of doing it yourself on those? Well, for one, their layouts
+        are out of the box, and build it as you want to see it. But then again ,
+        you literally have no control over it. Sometimes, not even the
+        developers that work with have complete control over it either. When I
+        build apps for my clients, I have full range of control because I pick
+        and choose, with the client, what they want built as I do it. That is
+        possible with the user interface. As we go along, I explain what each
+        plugin or feature does, and also show examples of it on running
+        websites.
+      </article>
+      <br /><br /><br /><br />
+      <!-- Carousel wrapper -->
+      <div
+        id="carouselBasicExample"
+        class="carousel slide carousel-fade"
+        data-mdb-ride="carousel"
+      >
+        <!-- Indicators -->
+        <div class="carousel-indicators">
           <button
             type="button"
-            class="btn-close"
-            data-mdb-dismiss="modal"
-            aria-label="Close"
+            data-mdb-target="#carouselBasicExample"
+            data-mdb-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselBasicExample"
+            data-mdb-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselBasicExample"
+            data-mdb-slide-to="2"
+            aria-label="Slide 3"
           ></button>
         </div>
-        <div class="modal-body">
-          If you need a developer and either have a project in mind, a layout in
-          mind, or even if you are unsure on what you need? Contact me to go
-          over some templates and designs.
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1488998527040-85054a85150e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1544725121-be3bf52e2dc8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </div>
+          </div>
         </div>
-        <a
-          class="btn max btn-info"
-          href="https://www.clear-web-designs.com/contact-us.html"
-          target="_blank"
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide="prev"
         >
-          Contact Me Using My Secure Form Here
-        </a>
-        <div class="modal-footer">
-          www.clear-web-designs.com
-        </div>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+      <!-- Carousel wrapper -->
     </div>
-  </div>
-  <br /><br /><br />
-  <h1 class="display">Ready For A Challenge?</h1>
-  <h4>
-    Using Axios for the API call to dynamically display the content below.
-  </h4>
-  <br /><br />
-  <!-- API Calls -->
-  <div class="events">
-    <br /><br />
-    <div class="container events">
-      <EventCard v-for="event in events" :key="event.id" :event="event" />
-    </div>
-  </div>
-  <!-- End of API Calls -->
-  <!-- Jumbotron with fixed image -->
-  <br /><br /><br />
-  <div class="jumbotron content-mid">
-    <div class="mid text-info">
-      <h1>Product Designs</h1>
-      <h4>Designer friendly & mobile first</h4>
-    </div>
-  </div>
-  <br /><br /><br />
-  <!-- end -->
-  <h1 class="display-4">Enroll Into A Class</h1>
-  <br />
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-md-3">
-        <div class="class-1-wrapper">
-          <div class="class-1-header">
-            Vue.Js with Vuex, PWA, Router
-          </div>
-          <div class="class-1-body">
-            <img
-              src="https://images.unsplash.com/photo-1542744094-3a31f272c490?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGVzaWdufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
-              alt="desktop"
-              class="img-fluid"
-            />
-          </div>
-          <br />
-          <div class="class-1-footer">
-            <a href="mailto:stephenbrooks714@gmail.com" class="btn btn-primary"
-              >Inquire</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="class-1-wrapper">
-          <div class="class-1-header">
-            asp.Net Core with MVC & Bootstrap
-          </div>
-          <div class="class-1-body">
-            <img
-              src="https://images.unsplash.com/photo-1603985585179-3d71c35a537c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
-              alt="desktop"
-              class="img-fluid"
-            />
-          </div>
-          <br />
-          <div class="class-1-footer">
-            <a href="mailto:stephenbrooks714@gmail.com" class="btn btn-primary"
-              >Inquire</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="class-1-wrapper">
-          <div class="class-1-header">
-            Html, Css, JavaScript, Node.js & MDB5
-          </div>
-          <div class="class-1-body">
-            <img
-              src="https://images.unsplash.com/photo-1542744095-291d1f67b221?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-              alt="desktop"
-              class="img-fluid"
-            />
-          </div>
-          <br />
-          <div class="class-1-footer">
-            <a href="mailto:stephenbrooks714@gmail.com" class="btn btn-primary"
-              >Inquire</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="class-1-wrapper">
-          <div class="class-1-header">
-            Python - Bottle Framework & MDB5
-          </div>
-          <div class="class-1-body">
-            <img
-              src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d2ViJTIwZGVzaWdufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
-              alt="desktop"
-              class="img-fluid"
-            />
-          </div>
-          <br />
-          <div class="class-1-footer">
-            <a href="mailto:stephenbrooks714@gmail.com" class="btn btn-primary"
-              >Inquire</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <br /><br /><br />
-    <div class="container">
-      <h1>Other Places I instruct Are With...</h1>
+    <!-- API EVENT CARDS -->
+    <h1 class="display-4 text-center">Real Time API Call</h1>
+    <hr />
+    <div class="events">
       <br /><br />
-      <div class="row">
-        <div class="col-md-6">
-          <h3>Wyzant</h3>
-          <img src="../assets/wyzant.png" class="img-fluid" alt="" />
-          <br /><br />
-          <a
-            class="btn btn-primary"
-            href="https://www.wyzant.com/Tutors/Stephen220413"
-            target="_blank"
-            >Profile</a
-          >
-        </div>
-        <div class="col-md-6">
-          <h3>Udemy</h3>
-          <img
-            src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
-            alt="udemy"
-            class="img-fluid img"
-          /><br /><br />
-          <a
-            class="btn btn-primary"
-            href="mailto:stephenbrooks714@gmail.com"
-            target="_blank"
-            >Profile</a
-          >
-        </div>
+      <div class="container events">
+        <EventCard v-for="event in events" :key="event.id" :event="event" />
       </div>
     </div>
   </div>
@@ -229,74 +188,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.intro-header {
-  font-size: 3.7em;
-}
-.intro-img {
-  background: url("../assets/audience.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-  padding-top: 30%;
-  padding-bottom: 35%;
-}
-.content-mid {
-  background: url("../assets/laptop.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-  padding-top: 15%;
-  padding-bottom: 15%;
-}
-.mid {
-  display: block;
-  flex: center;
-}
-.events {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-@media (max-width: 850px) {
-  .events {
-    flex-direction: column;
-  }
-  .intro-img {
-    padding-top: 50%;
-    padding-bottom: 50%;
-  }
-  .content-mid {
-    padding-top: 50%;
-    padding-bottom: 50%;
-  }
-  .intro-header {
-    font-size: 2.6em;
-  }
-}
-.display {
-  font-family: "Faster One", cursive;
-  font-size: 3.6em;
-  color: teal;
-}
-.img {
-  max-width: 250px;
-}
-.max {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 34px;
-}
-.max1 {
-  width: 35%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 34px;
-}
+@import "../assets/index.scss";
 </style>

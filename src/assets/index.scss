@@ -1,0 +1,108 @@
+.home {
+  margin-top: 160px;
+
+  hr {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-header {
+    font-size: 3.7em;
+  }
+  .content {
+    margin-top: 110px;
+    margin-bottom: 110px;
+  }
+  .intro-img {
+    background: url("../assets/audience.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 30%;
+    padding-bottom: 35%;
+  }
+  @media (max-width: 750px) {
+    .intro-img {
+      background: url("../assets/audience.png") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      padding-top: 45%;
+      padding-bottom: 45%;
+    }
+    .content-mid {
+      background: url("../assets/laptop.png") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      padding-top: 30%;
+      padding-bottom: 30%;
+    }
+  }
+  .content-mid {
+    background: url("../assets/laptop.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  .mid {
+    display: block;
+    flex: center;
+  }
+  .events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  @media (max-width: 850px) {
+    .events {
+      flex-direction: column;
+    }
+    .intro-img {
+      padding-top: 50%;
+      padding-bottom: 50%;
+    }
+    .content-mid {
+      padding-top: 50%;
+      padding-bottom: 50%;
+    }
+    .intro-header {
+      font-size: 2.6em;
+    }
+  }
+  .display {
+    font-family: "Faster One", cursive;
+    font-size: 3.6em;
+    color: teal;
+  }
+  .img {
+    max-width: 250px;
+  }
+  .max {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 34px;
+  }
+  .max1 {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 34px;
+  }
+}

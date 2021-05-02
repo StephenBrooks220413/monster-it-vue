@@ -2,6 +2,9 @@
   <div class="about">
     <h1>About Learning Solutions</h1>
     <hr class="line" />
+    <section class="container">
+      <img src="../assets/logo.png" alt="monster" class="img-fluid monster1" />
+    </section>
   </div>
   <br />
   <p class="container">
@@ -20,13 +23,6 @@
   </p>
   <a class="btn btn-primary" href="mailto:stephenbrooks714@gmail.com">Email</a>
   <a class="btn btn-primary" href="tel:580-039-0236">Call Me</a>
-  <section class="container">
-    <img
-      src="https://th.bing.com/th/id/OIP.hzxKGJbrRBeDKBGvw29h9wHaGl?pid=ImgDet&rs=1"
-      alt="monster"
-      class="img-fluid monster1"
-    />
-  </section>
 </template>
 
 <script>

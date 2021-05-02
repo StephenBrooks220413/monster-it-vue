@@ -2,97 +2,44 @@
   <div class="contact">
     <h1>Courses Offered</h1>
     <br /><br />
-    <div class="container">
+    <div class="container text-center">
       <div class="row">
-        <br /><br />
         <div class="col-md-4">
-          <h4>Html - Css - JavaScript</h4>
-          <img
-            src="https://tse3.mm.bing.net/th?id=OIP.zMIOOlHgUGXRS1wq60YVDwHaDt&pid=Api&P=0&w=319&h=160"
-            alt="barber"
-            class="img-fluid hover-shadow"
-          />
+          <img src="../assets/nuxt.png" class="img-fluid" alt="nuxt.js" />
+          <label for="">Starting 08/03/2021</label>
+          <a
+            class="btn btn-outline-primary"
+            href="mailto:Stephenbrooks714@gmail.com"
+            >Learn More</a
+          >
         </div>
-        <br /><br />
         <div class="col-md-4">
-          <h4>Using Scss - jQuery</h4>
           <img
-            src="https://awebdeveloper.co.uk/wp-content/uploads/2018/12/scss-sass.jpg"
-            alt="barber"
-            class="img-fluid hover-shadow"
+            src="../assets/asp.png"
+            class="img-fluid"
+            style="width:90%"
+            alt="asp.net core"
           />
-          <img
-            src="https://tse4.mm.bing.net/th?id=OIP.OWM_sq-JqnmSbrHj08P1PAHaBz&pid=Api&P=0&w=508&h=125"
-            alt="barber"
-            class="img-fluid hover-shadow"
-          />
+          <label for="">Starting 12/03/2021</label>
+          <a
+            class="btn btn-outline-primary"
+            href="mailto:Stephenbrooks714@gmail.com"
+            >Learn More</a
+          >
         </div>
-        <br /><br />
         <div class="col-md-4">
-          <h4>Visual Studio Code - NPM</h4>
           <img
-            src="https://tse3.mm.bing.net/th?id=OIP.vZk9avfjlOx4vsHNEfwe1QHaHY&pid=Api&P=0&w=300&h=300"
-            alt="barber"
-            class="img-fluid hover-shadow"
+            src="../assets/react.png"
+            class="img-fluid"
+            style="width:100%"
+            alt="react"
           />
-        </div>
-      </div>
-      <div class="row">
-        <br /><br />
-        <div class="col-md-4">
-          <h4>Flex Framework</h4>
-          <img
-            src="https://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png"
-            alt="barber"
-            class="img-fluid hover-shadow"
-          />
-        </div>
-        <br /><br />
-        <div class="col-md-4">
-          <h4>Vue.js - MDB5</h4>
-          <img
-            src="https://tse1.mm.bing.net/th?id=OIP.FJ-KnTJk7zCREJeQogSaIAHaDi&pid=Api&P=0&w=401&h=193"
-            alt="barber"
-            class="img-fluid hover-shadow"
-          />
-        </div>
-        <br /><br />
-        <div class="col-md-4">
-          <h4>Angular.js - MDB5</h4>
-          <img
-            src="https://tse1.mm.bing.net/th?id=OIP.z0K_WccaSKUUadNhlGQ4zgHaB-&pid=Api&P=0&w=459&h=123"
-            alt="barber"
-            class="img-fluid hover-shadow"
-          />
-        </div>
-      </div>
-      <div class="row">
-        <br /><br />
-        <div class="col-md-4">
-          <h4>Node.js</h4>
-          <img
-            src="https://tse3.mm.bing.net/th?id=OIP.VOGG10_elQyWEert_a0N5wHaD4&pid=Api&P=0&w=328&h=173"
-            alt="barber"
-            class="img-fluid hover-shadow"
-          />
-        </div>
-        <br /><br />
-        <div class="col-md-4">
-          <h4>Python</h4>
-          <img
-            src="https://tse4.mm.bing.net/th?id=OIP.SXhZLVFjZVMy78XgQTAo-QHaFP&pid=Api&P=0&w=218&h=155"
-            alt="barber"
-            class="img-fluid hover-shadow"
-          />
-        </div>
-        <br /><br />
-        <div class="col-md-4">
-          <h4>PHP</h4>
-          <img
-            src="https://tse4.mm.bing.net/th?id=OIP.ARP-RacsHBKNnbTXX3AnIgHaFP&pid=Api&P=0&w=242&h=172"
-            alt="barber"
-            class="img-fluid hover-shadow"
-          />
+          <label for="">Starting 05/03/2022</label>
+          <a
+            class="btn btn-outline-primary"
+            href="mailto:Stephenbrooks714@gmail.com"
+            >Learn More</a
+          >
         </div>
       </div>
     </div>
